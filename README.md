@@ -27,6 +27,7 @@ This is an advanced frontend development program in ALX that aims to equip junio
 
  #### 2. Struggled with data flow in Next.js 
  - I was comfused on fetching dat using getStaticProps and getServerSideProps, passing data down through components and understanding how data updates affected the UI. 
+
  **To solve this challnge:**
  - I learned about getStaticProps for static data and getServerSideProps for dynamic, server-rendered data.
 - I realized I needed to carefully think about which component owns the data.
@@ -34,6 +35,7 @@ This is an advanced frontend development program in ALX that aims to equip junio
 
 #### 3. Understanding API integration using GraphQL 
 - Integrating with APIs using GraphQL presented a new set of challenges, particularly because it was different from traditional REST APIs, learning a new query language (GQL) was initially confusing. I struggled with structuring complex queries with multiple nested fields, understanding how to define variables for dynamic queries, abd handling errors returned from GraphQL servers. 
+
 **To solve this challnge:**
 - I focused on understanding the core concepts of queries and mutations, practiced building simple queries against public GraphQL APIs, or learned about GraphQL schemas. While still developing my proficiency, I now can construct basic queries and mutations, and understand the benefits it offers for efficient data fetching.
 
@@ -53,6 +55,8 @@ Spme of the best practices that I learned during my frontend engineering journey
 7.  **Implement Robust Error Handling and Loading States:** When integrating with APIs it's essential to show loading indicators during data fetching and display user-friendly error messages if something goes wrong. This provides a smoother and more transparent user experience, preventing the app from appearing broken or unresponsive.
 
 ## Personal Takeaways
-- Facing tough coding problems, especially with new concepts like Next.js data flow or TypeScript errors, taught me the huge value of persistence. Breaking down big problems into smaller, manageable steps always helps me move forward, even when it feels overwhelming.
-- Modern Tools Make a Difference (Next.js & TypeScript).Initially, Next.js and TypeScript were challenging. But now, I really appreciate how they make development better. Next.js helps build fast, structured web apps, and TypeScript catches mistakes early, making my code much more reliable and easier to work with.
-- This program showed me that frontend development is always changing. To stay relevant, I need to keep learning new technologies and adapting. It's not about knowing everything now, but about being ready to learn anything next
+1. Facing tough coding problems, especially with new concepts like Next.js data flow or TypeScript errors, taught me the huge value of persistence. Breaking down big problems into smaller, manageable steps always helps me move forward, even when it feels overwhelming.
+
+2. Modern Tools Make a Difference (Next.js & TypeScript).Initially, Next.js and TypeScript were challenging. But now, I really appreciate how they make development better. Next.js helps build fast, structured web apps, and TypeScript catches mistakes early, making my code much more reliable and easier to work with.
+
+3. This program showed me that frontend development is always changing. To stay relevant, I need to keep learning new technologies and adapting. It's not about knowing everything now, but about being ready to learn anything next
