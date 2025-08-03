@@ -71,7 +71,7 @@ const SearchPage = () => {
 
         {!isLoading && !error && movies.length === 0 && q && (
           <div className="text-center text-lg text-gray-400">
-            No movies found for "{q}". Try a different search term.
+            No movies found for &quot;{q}&quot;. Try a different search term.
           </div>
         )}
 
