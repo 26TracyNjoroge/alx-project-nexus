@@ -26,7 +26,7 @@ const Header: React.FC = () => {
           MovieMood
         </Link>
         
-        <nav className='flex items-center lg:space-x-8 space-x-12 mt-3 lg:mt-0'>
+        <nav className='flex items-center lg:space-x-8 space-x-12 mt-3 lg:mt-0 sm:tex'>
           <Link href="/" className='nav-link'>Home</Link>
           <Link href="/" className='nav-link'>Movies</Link>
           <Link href="/" className='nav-link'>TV Shows</Link>
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyPress={handleKeyPress}
-            className="text-white bg-gray-800 border border-gray-500 rounded-lg pl-8 py-1 w-96 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400"
+            className="text-white bg-gray-800 border border-gray-500 rounded-lg pl-8 py-1 w-96 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 sm:w-34 md:w-68 lg:w-96"
           />
         </form>
       </div>

@@ -11,5 +11,5 @@ body {
 }
 
 .nav-link {
-  @apply text-white rounded-md p-2 hover:bg-[#8A2CE2] hover:transition hover:duration-450;
+  @apply text-white rounded-md p-2 hover:bg-[#8A2CE2] hover:transition hover:duration-450 sm:text-sm md:text-base lg:text-base;
 } 
