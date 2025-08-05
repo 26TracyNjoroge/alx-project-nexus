@@ -21,15 +21,14 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-[#18181f] p-4">
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between ">
         <Link href="/" className="text-2xl font-bold text-purple-400 ml-6">
           MovieMood
         </Link>
         
-        <nav className='flex items-center lg:space-x-8 space-x-12 mt-3 lg:mt-0 sm:tex'>
+        <nav className='flex items-center lg:space-x-8 space-x-12 mt-3 lg:mt-0'>
           <Link href="/" className='nav-link'>Home</Link>
           <Link href="/" className='nav-link'>Movies</Link>
-          <Link href="/" className='nav-link'>TV Shows</Link>
           <Link href="/" className='nav-link'>Watchlist</Link>
         </nav>
         
@@ -40,7 +39,7 @@ const Header: React.FC = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyPress={handleKeyPress}
-            className="text-white bg-gray-800 border border-gray-500 rounded-lg pl-8 py-1 w-96 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 sm:w-34 md:w-68 lg:w-96"
+            className="text-white bg-gray-800 border border-gray-500 rounded-lg pl-8 py-1 lg:w-96 md:w-96 sm:w-78  focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400"
           />
         </form>
       </div>
