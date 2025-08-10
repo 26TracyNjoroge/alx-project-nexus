@@ -14,7 +14,7 @@ const MovieHeroSection: React.FC<MovieHeroSectionProps> = ({ movie }) => {
   };
 
   return (
-    <div className="relative h-[60vh] overflow-hidden">
+    <div className="relative h-[60vh] overflow-hidden ">
       <div className="absolute inset-0">
         <Image
           src={getImageUrl(movie.backdrop_path, 'w1280')}
