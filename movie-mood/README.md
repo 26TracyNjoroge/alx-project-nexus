@@ -37,7 +37,7 @@ Uses TMDB API for movie data with dynamic routing `/movie/[id]` for individual m
 ### Core Components
 - **MovieDetailView** - Main container for movie details
 - **MovieHeroSection** - Hero section with backdrop and poster
-- **MovieDetailsContent** - Movie overview and production info
+- **MovieDetailsContent** - Movie overview
 
 ### Layout Components
 - **Layout** - Main app wrapper with header and footer
